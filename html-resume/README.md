@@ -1,6 +1,18 @@
+
 # HTML Resume Project
 
+
 This repository contains a simple HTML-based resume project. It demonstrates the use of various HTML tags and includes a theme toggle feature implemented with JavaScript. This is a Part of Web Dev Cohort 2026.
+
+## Demo Image
+
+![Resume Demo](images/html-resume.png)
+
+
+## Live Link
+
+[🌐 View Live Resume](https://resume.suprabhat.site)
+
 
 ## File Structure
 
