@@ -6,11 +6,13 @@
   color: #eee2e2;
   margin-right: 16px;
 }
+
 .logo {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
+
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -71,7 +73,6 @@ a {
   display: flex;
   align-items: center;
   height: 50px;
-  /* position: relative; */
 }
 
 .nav-left {
@@ -80,7 +81,6 @@ a {
   gap: 48px;
   padding-left: 48px;
 }
-
 
 .nav-links {
   display: flex;
@@ -161,7 +161,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  
+
 }
 
 .hero h1 {
@@ -213,7 +213,7 @@ a {
 
 /* Trust Section */
 .trust {
- margin-bottom: 60px;
+  margin-bottom: 60px;
   text-align: center;
   background: var(--bg-primary);
 }
@@ -249,7 +249,7 @@ a {
 .logo-item {
   background: #181611;
   border-radius: 4px;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
   padding: 32px;
   min-width: 100px;
   min-height: 100px;
@@ -263,11 +263,14 @@ a {
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+
 .logo-item:hover {
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.18);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.18);
   transform: translateY(-4px) scale(1.03);
 }
-.logo-item img, .logo-item svg {
+
+.logo-item img,
+.logo-item svg {
   max-width: 100px;
   max-height: 50px;
   width: auto;
@@ -276,6 +279,7 @@ a {
   margin: 0 auto;
   filter: brightness(0) invert(1);
 }
+
 .feature-section {
   min-height: 100vh;
   display: flex;
@@ -297,7 +301,8 @@ a {
   margin-bottom: 48px;
   padding-left: 48px;
   padding-right: 48px;
-} 
+}
+
 .feature-image img {
   width: 100%;
   height: 100%;
@@ -669,7 +674,7 @@ a {
   color: #ffffff;
 }
 
-.footer-column-connect a span{
+.footer-column-connect a span {
   display: none;
 }
 
@@ -731,15 +736,12 @@ a {
   padding: 0 14px;
 }
 
-
-
-
-/* Smooth scrolling */
+/* This is used for - Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Selection color */
+/* this is used when we select some text - Selection color */
 ::selection {
   background: rgba(80, 94, 85, 0.3);
   color: var(--text-primary);
