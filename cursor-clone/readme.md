@@ -68,7 +68,7 @@ This project is a **desktop‑only HTML/CSS clone** of the Cursor landing page U
 
 ## How to View
 
-- **Live Demo:** 🌐 [View live site](https://live.site)
+- **Live Demo:** 🌐 [View live site](https://cursor-clone-css.vercel.app/)
 - Open `index.html` directly in a browser.  
 - This is a desktop‑only layout as requested by the assignment.
 
